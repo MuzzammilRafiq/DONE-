@@ -1,0 +1,88 @@
+.header{
+    background-color: whitesmoke;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+    justify-content: space-evenly;
+    position: sticky;
+    top: 0;
+}
+.header_left{
+    display: flex;
+    flex: 0.3;
+    align-items: center;
+    margin-right: 5px;
+}
+.Header_leftJoined{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 50%;
+    margin-left: 7px;
+    border: 0.5px solid whitesmoke;
+
+}
+.Header_leftJoined:hover{
+    border: 0.5px solid lightgray;
+    border-radius: 4px;
+}
+.Header_leftJoined > p{
+    font-size: 14px;
+    font-weight: 500;
+}
+.header_middle{
+    display: flex;
+    flex: 0.7;
+    background-color: whitesmoke;
+}
+.header_middle > form{
+    display: flex;
+    flex:1;
+    align-items: center;
+    background-color: rgb(226, 223, 223);
+    padding: 7px;
+    border-radius: 5px;
+    color: gray;
+    border: 1px solid rgb(226, 223, 223);
+}
+.header_middle > form> input{
+    border: none;
+    width: 100%;
+    padding: 5px;
+    outline: none;
+    background-color: transparent;
+    color: gray;
+    font-size: medium;
+    font-weight: 100;
+}
+.header_middle > form:hover{
+    border: 1px solid blue;
+}
+.header_right{
+    display: flex;
+    flex: 0.5;
+    align-items: center;
+}
+.Header_RightSelf{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.Header_RightSelf > p{
+   font-size: 12px;
+}
+.header_rightCoins{
+    display: flex;
+    align-items: center;
+    margin-right:10px ;
+    background-color: #ddbd37;
+    box-shadow: 0 2px 0 #eed000;
+    color: rgb(92, 92, 0);
+    border-radius: 30px;
+    font-size: 13px;
+    min-width: 80px;
+    justify-content: space-evenly;
+    height: 36px;
+    cursor: pointer;
+}

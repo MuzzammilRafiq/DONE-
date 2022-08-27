@@ -1,0 +1,9 @@
+fork repo
+clone the forked repo (git clone)
+git checkout -b <new-branch-name>
+make changes
+git add the changed|created files
+git commit -m "message"
+git push origin new branch made
+password
+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

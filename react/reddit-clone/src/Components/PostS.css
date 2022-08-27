@@ -1,0 +1,52 @@
+.postS {
+  margin-top: 20px;
+  display: flex;
+  justify-content: left;
+  gap: 10px;
+  background-color: white;
+  border: 1px solid lightgray;
+  margin-left: 30px;
+  padding: 5px;
+  border-radius: 5px;
+  max-width: 600px;
+  overflow-wrap: break-word;
+}
+.postS_other > p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: gray;
+  font-size: 12px;
+  
+}
+.message {
+  margin-top: 0px;
+  margin-bottom: 2px;
+  font-weight: 500;
+  font-size: 18px !important; 
+  color: #444e59 !important;
+  word-break: break-all;
+  word-wrap: break-word;
+}
+.PostS_otherThings {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  color: rgb(150, 148, 148);
+}
+._{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  cursor: pointer;
+  border-radius: 0px;
+  padding: 0px;
+  height: 40px;
+}
+._:hover{
+  background-color: rgb(207, 206, 206);
+}
+._ > p {
+  font-size: 12px;
+  font-weight: bold;
+  margin-left: -15px;
+}

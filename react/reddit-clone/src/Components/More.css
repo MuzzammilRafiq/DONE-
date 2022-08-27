@@ -1,0 +1,17 @@
+.more{
+    background-color: whitesmoke;
+    margin-left: 50px;
+    margin-top: 20px;
+    border-radius: 7px;
+    border: 1px solid lightgray;
+    padding: 10px;
+}
+.more_line{
+    display: flex;
+    justify-content: space-between;
+}
+.more_line > p{
+    cursor: pointer;
+    font-size: 12px;
+    margin-bottom: 0px;
+}

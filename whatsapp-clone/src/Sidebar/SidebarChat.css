@@ -1,0 +1,8 @@
+.sidebarchat{
+    display: flex;
+    padding: 20px;
+    cursor: pointer;
+}
+.sidebarchat:hover{
+    background-color: #ebebeb;
+}
